@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.logo-sty {
+    width: 80px;
+
+}
+.logo-sty:hover{
+    margin: 1px;
+    box-shadow: 0px 4px 16px 0px #d0b200;
+    padding: 2px;
+    border-radius: 10px;
+}
+.menu-cls {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#nav-sty {
+    color: black;
+    font-family: "Serif";
+    padding-right: 20px;
+}
+#nav-sty:hover{
+    color: #bdb406;
+}
+
+.bg-cont {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png");
+    height: 100vh;
+    background-size: cover;
+    font-family: "Serif";
+}
+
+.heading {
+    color: #ffffff;
+    font-size: 35px;
+}
+.heading:hover{
+    margin: 1px;
+    /* box-shadow: 0px 4px 16px 0px #d0b200; */
+    padding: 2px;
+    font-size: 37px;
+    border-radius: 10px;
+}
+.caption {
+    color: #ffffff;
+    font-size: 25px;
+}
+.caption:hover{
+    font-size: 27px;
+}
+.button {
+    width: 110px;
+    border-radius: 20px;
+    background-color: #bdb406;
+    color: #ffffff;
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.button-two {
+    width: 110px;
+    border-radius: 20px;
+    background-color: transparent;
+    border-color: #bdb406;
+    color: #ffffff;
+    font-size: 15px;
+}
+.button-two:hover {
+    background-color:#d0b200;
+    color: #ffffff;
+    border:none
+}
+
+.section-nxt {
+    background-color: #f2f2e6;
+    font-family: "Serif";
+}
+
+.sect-head {
+    font-size: 30px;
+
+}
+
+.sect-descrip {
+    font-size: 18px;
+}
+
+.card-sect {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+.card-sect:hover{
+    margin: 1px;
+    box-shadow: 0px 4px 16px 0px #d0b200;
+    padding: 2px;
+    border-radius: 10px;
+}
+.card-img {
+    width: 100px;
+}
+.card-img:hover{
+    margin: 1px;
+    padding: 1px;
+    width: 110px;
+}
+.card-head {
+    padding-top: 25px;
+    font-size: 25px;
+}
+
+.exp-sect {
+    background-color: #ffffff;
+    font-family: "Serif";
+}
+
+.exp-head {
+    font-size: 30px;
+}
+
+.exp-card {
+    border-radius: 20px;
+}
+.exp-card:hover{
+    margin: 10px;
+    box-shadow: 0px 4px 16px 0px #d0b200
+}
+
+.exp-card-img {
+    border-radius: 20px;
+}
+
+.exp-card-head {
+    font-size: 20px;
+}
+
+.exp-link {
+    color: #bdb406;
+    font-size: 18px;
+}
+
+.healthy-sect {
+    background-color: #f2f2e6;
+    font-family: "Serif";
+}
+
+.healthy-img {
+    border-radius: 20px;
+    padding-bottom: 10px;
+}
+.healthy-img:hover{
+    margin: 1px;
+    box-shadow: 0px 4px 16px 0px #d0b200;
+    padding: 2px;
+    border-radius: 10px;
+}
+.healthy-head {
+    font-family: "Serif";
+    font-size: 30px;
+}
+
+.healthy-descrip {
+    font-size: 18px;
+}
+
+.delpay-sect {
+    font-family: "Serif";
+}
+
+.delpay-img {
+    width: 270px;
+}
+.delpay-img:hover{
+    margin: 1px;
+    box-shadow: 0px 4px 16px 0px #d0b200;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+.delpaylogo-img {
+    width: 50px;
+    margin-right: 10px;
+}
+.delpaylogo-img:hover{
+    margin: 1px;
+    box-shadow: 0px 4px 16px 0px #d0b200;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+.thank-sect {
+    font-family: "Serif";
+    background-image: radial-gradient(#cfc621, #f2f2e6);
+}
+
+.thank-img {
+    width: 250px;
+}
+.thank-img:hover{
+    margin: 1px;
+    box-shadow: 0px 4px 16px 0px #d0b200;
+    padding: 20px;
+    border-radius: 10px;
+}
+.follow-sect {
+    font-family: "Serif";
+}
+
+.follow-icon {
+    font-family: "Serif";
+    background-color: #f2f2e6;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 100px;
+}
+.follow-icon:hover{
+    font-family: "Serif";
+    /* background-color: #f2f2e6; */
+    padding: 18px;
+    margin: 6px;
+    border-radius: 120px;
+    box-shadow: 0px 4px 16px 0px #d0b200;
+
+}
+.icons-f {
+    color: #d0b200;
+    font-size: 30px;
+}
+
+.fmlogo {
+    width: 100px;
+}
+.fmlogo:hover{
+    margin: 1px;
+    box-shadow: 0px 4px 16px 0px black;
+    padding: 2px;
+    border-radius: 10px;
+}
+.foot-sect {
+    background-color: black;
+    color: #ffffff;
+}
+
+.foot-head {
+    color: #959ead;
+    font-family: "Serif";
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.foot-descrip {
+    color: #959ead;
+    font-family: "Serif";
+    font-size: 16px;
+}
